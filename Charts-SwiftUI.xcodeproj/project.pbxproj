@@ -14,6 +14,7 @@
 		FF81EB2A2BC5480200D6C7E6 /* Charts_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81EB292BC5480200D6C7E6 /* Charts_SwiftUITests.swift */; };
 		FF81EB342BC5480200D6C7E6 /* Charts_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81EB332BC5480200D6C7E6 /* Charts_SwiftUIUITests.swift */; };
 		FF81EB362BC5480200D6C7E6 /* Charts_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81EB352BC5480200D6C7E6 /* Charts_SwiftUIUITestsLaunchTests.swift */; };
+		FF81EB442BC5483B00D6C7E6 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81EB432BC5483B00D6C7E6 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FF81EB2F2BC5480200D6C7E6 /* Charts-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Charts-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF81EB332BC5480200D6C7E6 /* Charts_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		FF81EB352BC5480200D6C7E6 /* Charts_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF81EB432BC5483B00D6C7E6 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				FF81EB182BC5480000D6C7E6 /* Charts_SwiftUIApp.swift */,
-				FF81EB1A2BC5480000D6C7E6 /* ContentView.swift */,
+				FF81EB422BC5482800D6C7E6 /* Model */,
+				FF81EB452BC55F7300D6C7E6 /* View */,
 				FF81EB1C2BC5480200D6C7E6 /* Assets.xcassets */,
 				FF81EB1E2BC5480200D6C7E6 /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				FF81EB352BC5480200D6C7E6 /* Charts_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "Charts-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		FF81EB422BC5482800D6C7E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF81EB432BC5483B00D6C7E6 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF81EB452BC55F7300D6C7E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF81EB1A2BC5480000D6C7E6 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				FF81EB1B2BC5480000D6C7E6 /* ContentView.swift in Sources */,
 				FF81EB192BC5480000D6C7E6 /* Charts_SwiftUIApp.swift in Sources */,
+				FF81EB442BC5483B00D6C7E6 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
